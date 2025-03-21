@@ -1,24 +1,28 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
-    background-color: bisque;
+    background-color: #DDDDDD;
 }
 
 header {
-    background-color: rgb(255, 223, 184);
+    background-color: #DDDDDD;
 }
 
 nav {
-    background-color: rgb(197, 225, 237);
+    background-color:  #EEEEEE;
 }
 
 main {
-    background-color: bisque;
+    background-color:  #FFFFFF;
     font-size: 16px;
 }
 
 footer {
-    background-color: rgb(255, 255, 255);
+    background-color:  #FFFFFF;
+}
+
+ul {
+    text-align: center;
 }
 
 li {
@@ -31,8 +35,24 @@ h1 {
     text-align: center;
 }
 
-Write a CSS rule to style the p tag to modify the line height property.  
-
 p {
     line-height: 20px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:active {
+    color: orange;
 }
